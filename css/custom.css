@@ -1,0 +1,289 @@
+body{
+    background: #f0f0f0;
+    font-family: 'tahoma', sans-serif !important;
+}
+.center{
+    text-align: center;
+    align-self: center;
+}
+.nav-link{
+    color: #2f6ed386 !important;
+}
+.active{
+    color:black !important;
+}
+.firstItem{
+    margin-top:20px;
+}
+.rads{
+    width: 100%;
+    padding-left: 65px;
+}
+
+.form-check-input {
+    
+}
+.pull-right{
+    float: right !important;
+
+}
+.pull-left{
+    float:left !important;
+}
+.circular{
+    width: fit-content !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;    
+    background: white;
+    border-radius: 100px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    /* border-radius */
+ -webkit-border-radius: 50px;
+ -moz-border-radius: 50px;
+/* box-shadow */
+ -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0 10px;
+ -moz-box-shadow: rgb(0, 0, 0) 0 0 10px;
+ box-shadow: rgba(19, 17, 17, 0.8) 0 0 10px;
+}
+.jumbotron{
+    background:inherit;
+}
+#dropdownMenuButton{
+    border-radius:0px;
+    background: transparent;
+    color:black;
+    border: 0px solid #8383839d;
+    font-size: medium;
+}
+.lead{
+    font-size: 3.9vh;
+    margin-bottom: -10px;
+}
+.navbar{
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+}
+.display-4{
+    font-size: 5.1vh;
+    font-weight: bolder;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: -5px;
+    
+}
+.lightn{
+    display: flow-root;
+    font-weight: 100 !important;
+    font-size: large !important;
+    margin-top: -8px !important;
+}
+.btn{
+    border-radius: 40px;
+    border:0px;
+}
+.btn-number{
+    color:black;
+    border-radius: 0px !important;
+}
+.btn-number>span:active, .btn-number>span:focus{
+    border: 1px darkblue !important;
+}
+.form-control{
+    font-size: medium;
+    border:0 !important;
+}
+.dropdown-toggle :active, .dropdown-toggle:focus, #dropdownMenuButton:active , #dropdownMenuButton:focus{
+    outline: none !important;
+    box-shadow: none;
+    border:0 !important;
+}
+.form-control:focus,.form-control:active,.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+    border:0 !important;
+    
+ }
+.diff {
+    margin-left: 0px;
+    margin-right: 0px; 
+
+}
+.input-group-text{
+    color:dodgerblue;
+    background-color: white !important;
+    background: white !important;
+    
+    border: 0 !important;
+}
+.input-group-text>i{
+    color:dodgerblue;
+    background-color: white !important;
+    background: white !important;
+    
+    border: 0 !important;
+}
+  .input-number{
+      width:35px !important;
+      border: 0px !important;
+      text-align: center;
+      box-shadow: 0px;
+  }
+
+  .input-group-btn>button{
+    border: 0px !important;
+    margin-left: 2px;
+    margin-right: 2px;
+  color:darkblue;
+  text-decoration: none !important;
+  box-shadow: 0px !important;
+  
+}
+.input-group-btn>button:focus{
+    border: 0px !important;
+    margin-left: 2px;
+    margin-right: 2px;
+  color:darkblue;
+  text-decoration: none !important;
+  box-shadow: 0px !important;
+}
+.input-group-btn>button:active{
+    border: 0px !important;
+    margin-left: 2px;
+    margin-right: 2px;
+  color:darkblue;
+  text-decoration: none !important;
+  box-shadow: 0px !important;
+}
+  .input-group-btn>button>span{
+      border: 0px !important;
+      margin-left: 2px;
+      margin-right: 2px;
+    color:darkblue;
+    text-decoration: none !important;
+    box-shadow: 0px !important;
+}
+.input-group-btn>button>span:active{
+    text-decoration: none !important;
+    box-shadow: 0px !important;
+}
+  .input-group-btn{
+      width:50px;
+      color:dodgerblue;
+  }
+  .dropdown-menu{
+      min-width: 300px !important;
+  }
+  .dropdown-item .active{
+      background-color: white !important;
+  }
+  .btn-primary.active, 
+  .btn-primary:active, 
+  .open>.dropdown-toggle.btn-primary{
+    background-color: transparent;
+      text-decoration: none !important;
+      background: white !important;
+  }
+  .form-control:disabled, .form-control[readonly] {
+    background-color: white !important;
+    opacity: 1;
+}
+  .input-group{
+    color: black;
+    border: 0px !important;
+    
+  }
+  .brr{
+    border-left: 1px solid rgba(170, 170, 170, 0.63) !important;
+  }
+  
+.input-group>span{
+    border: 0px !important;
+    width: 40px !important;
+    background-color: transparent;
+}
+  .nav-item{
+      margin-right: 20px;
+  }
+
+  .btn-sub{
+     
+      margin-top: 0px;
+      align-self: center;
+      padding: 20px 40px;
+      font-size: 20px;
+      border-radius:50px;
+      margin-left: 20px;
+  }
+
+  .close:before {
+    content: '✕';
+  }
+  .close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+  }
+
+
+  #dp1>i{
+      color:dodgerblue;
+  }
+
+  @media screen and (max-width:1300px) {
+    .circular{
+        padding:20px;
+
+    }
+    
+    .btn-sub, .form-control,#dropdownMenuButton{
+        font-size: small;
+    }
+  }
+  
+ 
+  @media screen and (max-width:1000px) {
+    .circular{
+        margin: 5px;
+        margin-top: 20px;
+        border-radius: 20px !important;
+        text-align: center !important;
+    }
+    .rads{
+        width: 100%;
+        margin: auto;
+    }
+.btn-sub{
+    margin:auto !important;
+    margin-top: 15px !important;
+}
+    .diff{
+        margin-left: 5px;
+        margin-right: 5px; 
+        margin-top: 10px;
+    }
+    .brr{
+        border:0 !important;
+    }
+    .form-inline{
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        display: block;
+        margin: auto !important;        
+        margin-top:20px !important;
+        padding-left: 30px;
+    }
+    .btn-sub, .form-control,#dropdownMenuButton{
+        font-size: large;
+    }
+    .input-group{
+        width: 100%;
+    }
+  }
